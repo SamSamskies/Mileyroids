@@ -149,7 +149,7 @@ footer a {
 #doge-ball{
     height: 60px;
     width: 60px;
-    background: url('https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg');
+    background: url('/images/doge.jpeg');
     background-size: 60px;
     position: absolute;
     z-index: 2;
