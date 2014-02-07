@@ -48,7 +48,7 @@ footer a {
 
 #mask {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   left: 0;
   width: 100%;
@@ -57,9 +57,6 @@ footer a {
 }
 
 #images-container {
-  /*position: fixed;*/
-  /*top: 50px;*/
-  /*left: 0;*/
   max-height: 500px;
 }
 
@@ -70,7 +67,7 @@ footer a {
 
 #instructions-container {
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   top: 100px;
   left: 50%;
   margin-left: -250px;
@@ -154,7 +151,7 @@ footer a {
     background: url('https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg');
     background-size: 60px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     border-radius: 50%;
     border: 5px solid yellow;
 
