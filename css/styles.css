@@ -100,8 +100,8 @@ footer a {
   border: 1px solid black;
 }
 
-.red-text {
-  color: red;
+.instructions h1 {
+  color: #666;
 }
 
 .doge {
@@ -126,8 +126,8 @@ footer a {
   color: #00FFFF;
 }
 
-.blue {
-  color: blue;
+.red {
+  color: red;
 }
 
 .orange {
