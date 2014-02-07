@@ -2,21 +2,48 @@ body {
   padding-top: 70px;
 }
 
-header {
+header, footer {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 50px;
   background: black;
+  color: white;
+  left: 0;
+  z-index: 9999;
+}
+
+header {
+  padding-left: 50px;
+  top: 0;
+  height: 50px;
+}
+
+footer {
+  bottom: 0;
+  height: 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #ccc;
+}
+
+img {
+  max-height: 100%;
+}
+
+#brand, #credits {
+  line-height: 50px;
 }
 
 #brand {
-  color: white;
-  line-height: 50px;
-  margin-left: 50px;
   font-family: 'Revalia', cursive;
   font-size: 28px;
+}
+
+#credits {
+  font-family: helvetica, sans-serif;
+  line-height: 30px;
+  font-size: 14px;
 }
 
 #mask {
@@ -25,7 +52,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(40, 40, 40, 0.9);
 }
 
 #images-container {
@@ -56,6 +83,45 @@ header {
   color: red;
 }
 
-img {
-  max-height: 100%;
+.doge {
+  position: absolute;
+  z-index: 10;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+.green {
+  color: #32cd32;
+}
+
+.violet {
+  color: #bf5fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.light-blue {
+  color: #00FFFF;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.big {
+  font-size: 42px;
+}
+
+.medium {
+  font-size: 32px;
+}
+

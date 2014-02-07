@@ -7,5 +7,6 @@ var APP = {
   }
 }
 
-$(document).konami_code({ callback: APP.startGame })
+$(document).konami_code({ callback: APP.startGame, maximum: 1 })
+
 
