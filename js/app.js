@@ -35,12 +35,14 @@ var APP = {
     $('body').append(s);
     $('#mask').hide();
     $('#instructions-container').hide();
+    APP.mainPlayer.playVideo();
     APP.miniPlayer.playVideo();
   }
 }
 
 // This stuff needs to be global
 function onYouTubeIframeAPIReady() {
+  APP.mainPlayer = new YT.Player($('#main-vid')[0])
   APP.miniPlayer = new YT.Player($('#mini-vid')[0])
 }
 
