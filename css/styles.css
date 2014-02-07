@@ -148,3 +148,42 @@ footer a {
   font-size: 32px;
 }
 
+#doge-ball{
+    height: 60px;
+    width: 60px;
+    background: url('https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg');
+    background-size: 60px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    border: 5px solid yellow;
+
+
+   -webkit-animation: horizontal 6s, vertical 7s;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+
+   -moz-animation: horizontal 6s, vertical 7s;
+   -moz-animation-timing-function: linear;
+   -moz-animation-iteration-count: infinite;
+}
+@-webkit-keyframes vertical {
+    0% { top: 0;}
+    50% { top: 100%;}
+    100%{top:0;}
+}
+@-webkit-keyframes horizontal {
+    0% { left: 0;}
+    50% { left: 100%;}
+    100%{left:0;}
+}
+@-moz-keyframes vertical {
+    0% { top: 0;}
+    50% { top: 100%;}
+    100%{top:0;}
+}
+@-moz-keyframes horizontal {
+    0% { left: 0;}
+    50% { left: 100%;}
+    100%{left:0;}
+}
