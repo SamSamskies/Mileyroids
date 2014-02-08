@@ -6,7 +6,7 @@ body {
 
 header, footer {
   position: fixed;
-  z-index: 4;
+  z-index: 10;
   width: 100%;
   background: black;
   color: white;
@@ -106,7 +106,7 @@ footer a {
 
 .doge {
   position: fixed;
-  z-index: 10;
+  z-index: 9;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
