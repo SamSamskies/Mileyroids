@@ -4,6 +4,7 @@ var APP = {
     APP.loadYouTubeAPIAsyc();
     APP.$imagesContainer = $('#images-container');
     APP.seedRandomImages(50);
+    APP.started = false;
   },
 
   // This code loads the IFrame Player API code asynchronously.
@@ -31,12 +32,17 @@ var APP = {
   },
 
   startGame: function() {
+    if (APP.started) {
+      return;
+    }
+
     var s = $('<script/>').attr('src', 'js/kickass.js');
     $('body').append(s);
     $('#mask').hide();
     $('#instructions-container').hide();
     APP.mainPlayer.playVideo();
     APP.miniPlayer.playVideo();
+    APP.started = true;
   }
 }
 
