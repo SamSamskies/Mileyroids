@@ -36,8 +36,7 @@ var APP = {
       return;
     }
 
-    var s = $('<script/>').attr('src', 'js/kickass.js');
-    $('body').append(s);
+    $('#gameCode').attr('src', 'js/kickass.js');
     $('#mask').hide();
     $('#instructions-container').hide();
     APP.mainPlayer.playVideo();
