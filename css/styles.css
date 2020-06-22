@@ -149,7 +149,7 @@ footer a {
 #doge-ball{
     height: 60px;
     width: 60px;
-    background: url('/images/doge.jpeg');
+    background: url('images/doge.jpeg');
     background-size: 60px;
     position: absolute;
     z-index: 2;
